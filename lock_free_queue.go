@@ -1,4 +1,4 @@
-package model
+package queue
 
 import (
 	"sync/atomic"

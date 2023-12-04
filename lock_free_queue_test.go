@@ -1,11 +1,12 @@
-package model
+package queue
 
 import (
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestEnqueueDequeue(t *testing.T) {
